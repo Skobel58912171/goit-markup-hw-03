@@ -185,7 +185,6 @@ p {
 .work .item,
 .team .item {
   margin-right: 30px;
-  padding-bottom: 94px;
 }
 
 .feature .item:last-child,
@@ -239,7 +238,9 @@ p {
 }
 
 /* address*/
-.footer .container {
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--footer-bg-color);
 }
 
@@ -253,14 +254,11 @@ p {
 }
 
 .footer .logo {
-  display: block;
   margin-bottom: 20px;
-  padding-top: 60px;
+
   color: var(--primary-white-color);
 }
-.address {
-  padding-bottom: 60px;
-}
+
 .address .link {
   color: var(--accent-white-color);
   text-decoration: none;
