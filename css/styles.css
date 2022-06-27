@@ -79,7 +79,7 @@ img {
   align-items: center;
 }
 
-.nav {
+.nav-list {
   margin-left: 93px;
   margin-right: 331px;
 }
@@ -134,7 +134,7 @@ img {
 
 /* hero */
 .hero {
-  padding: 200px 452px;
+  padding: 200px;
 
   background-color: var(--footer-bg-color);
 
