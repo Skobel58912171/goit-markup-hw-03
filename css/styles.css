@@ -257,9 +257,11 @@ img {
 }
 
 .footer .logo {
-  margin-bottom: 20px;
-
   color: var(--primary-white-color);
+}
+
+.address {
+  margin-top: 20px;
 }
 
 .address .link {
