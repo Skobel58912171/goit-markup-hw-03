@@ -11,7 +11,7 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -20,7 +20,7 @@
     <header class="header">
       <div class="container nav">
         <a href="" lang="en" class="logo"><span>Web</span>Studio</a>
-        <nav>
+        <nav class="nav">
           <ul class="site-nav list">
             <li class="item"><a href="./index.html" class="link current">Студия</a></li>
             <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
@@ -38,16 +38,16 @@
 
     <main>
       <!--Герой-->
-      <section class="hero section">
+      <section class="hero">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <button type="button" class="btn">Заказать услугу</button>
         </div>
       </section>
       <!--Преимущества-->
-      <section>
+      <section class="section">
         <div class="container">
-          <h2 class="section-title">Наше преимущество</h2>
+          <h2 hidden>Наше преимущество</h2>
           <ul class="feature list">
             <li class="item">
               <h3 class="title">Внимание к деталям</h3>
@@ -100,8 +100,10 @@
           <ul class="team list">
             <li class="item">
               <img src="./images/img.jpg" alt="Photo Product Designer" width="270" height="260" />
-              <h3 class="title">Игорь Демьяненко</h3>
-              <p lang="en" class="text">Product Designer</p>
+              <div class="team-title">
+                <h3 class="title">Игорь Демьяненко</h3>
+                <p lang="en" class="text">Product Designer</p>
+              </div>
             </li>
             <li class="item">
               <img
@@ -110,8 +112,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="title">Ольга Репина</h3>
-              <p lang="en" class="text">Frontend Developer</p>
+              <div class="team-title">
+                <h3 class="title">Ольга Репина</h3>
+                <p lang="en" class="text">Frontend Developer</p>
+              </div>
             </li>
             <li class="item">
               <img
@@ -120,13 +124,17 @@
                 width="270"
                 height="260"
               />
-              <h3 class="title">Николай Тарасов</h3>
-              <p lang="en" class="text">Marketing</p>
+              <div class="team-title">
+                <h3 class="title">Николай Тарасов</h3>
+                <p lang="en" class="text">Marketing</p>
+              </div>
             </li>
             <li class="item">
               <img src="./images/img(3).jpg" alt="Photo UI Designer" width="270" height="260" />
-              <h3 class="title">Михаил Ермаков</h3>
-              <p lang="en" class="text">UI Designer</p>
+              <div class="team-title">
+                <h3 class="title">Михаил Ермаков</h3>
+                <p lang="en" class="text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
