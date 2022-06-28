@@ -73,7 +73,7 @@ img {
 .header {
   border-bottom: 1px solid var(--border-header-color);
 }
-.container.nav > .site-nav,
+.container.nav .site-nav,
 .container.nav {
   display: flex;
   align-items: center;
